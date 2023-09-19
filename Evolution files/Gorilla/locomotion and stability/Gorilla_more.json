@@ -1,0 +1,897 @@
+{
+ "id": 1,
+ "body": {
+  "part": [
+   {
+    "id": "Core",
+    "type": "CoreComponent",
+    "root": true,
+    "orientation": 2
+   },
+   {
+    "id": "Hip1",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 1
+   },
+   {
+    "id": "myid1018",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1020",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1021",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.038268070667982101
+     },
+     {
+      "paramValue": 81.446502685546875
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 0
+   },
+   {
+    "id": "myid1025",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1023",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 1
+   },
+   {
+    "id": "myid1058",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 3
+   },
+   {
+    "id": "myid1060",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 3
+   },
+   {
+    "id": "myid1006",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1000",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 1
+   },
+   {
+    "id": "UpperLeg1",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "Knee1",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1046",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1055",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1003",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 1
+   },
+   {
+    "id": "myid1015",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.093263797461986542
+     },
+     {
+      "paramValue": 78.23638916015625
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 0
+   },
+   {
+    "id": "myid1049",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1057",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 3
+   },
+   {
+    "id": "myid1056",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 3
+   },
+   {
+    "id": "myid1051",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 3
+   }
+  ],
+  "connection": [
+   {
+    "src": "Core",
+    "dest": "Hip1",
+    "srcSlot": 0,
+    "destSlot": 0
+   },
+   {
+    "src": "Hip1",
+    "dest": "myid1018",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1018",
+    "dest": "myid1020",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1020",
+    "dest": "myid1021",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1021",
+    "dest": "myid1025",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1025",
+    "dest": "myid1023",
+    "srcSlot": 3,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1023",
+    "dest": "myid1058",
+    "srcSlot": 2,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1058",
+    "dest": "myid1060",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1018",
+    "dest": "myid1006",
+    "srcSlot": 2,
+    "destSlot": 0
+   },
+   {
+    "src": "Core",
+    "dest": "myid1000",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1000",
+    "dest": "UpperLeg1",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "UpperLeg1",
+    "dest": "Knee1",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "Knee1",
+    "dest": "myid1046",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1046",
+    "dest": "myid1055",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1055",
+    "dest": "myid1003",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1003",
+    "dest": "myid1015",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1015",
+    "dest": "myid1049",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1003",
+    "dest": "myid1057",
+    "srcSlot": 2,
+    "destSlot": 0
+   },
+   {
+    "src": "UpperLeg1",
+    "dest": "myid1056",
+    "srcSlot": 3,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1056",
+    "dest": "myid1051",
+    "srcSlot": 1,
+    "destSlot": 0
+   }
+  ]
+ },
+ "brain": {
+  "neuron": [
+   {
+    "id": "Core-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-1",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 1,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-2",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 2,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-3",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 3,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-4",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 4,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-5",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 5,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-6",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 6,
+    "phaseOffset": -1.0,
+    "period": 0.99453330039978027,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-7",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 7,
+    "phaseOffset": -0.23922866582870483,
+    "period": 0.12190768867731094,
+    "gain": 0.24824567139148712
+   },
+   {
+    "id": "Core-8",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": 1.6371662616729736,
+    "bodyPartId": "Core",
+    "ioId": 8,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-9",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 9,
+    "phaseOffset": -0.58633548021316528,
+    "period": 0.059300418943166733,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-10",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 10,
+    "phaseOffset": -1.0,
+    "period": 0.0,
+    "gain": 0.81301707029342651
+   },
+   {
+    "id": "Core-11",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 11,
+    "phaseOffset": -0.97360503673553467,
+    "period": 0.0,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-12",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "Core",
+    "ioId": 12,
+    "phaseOffset": 0.37523925304412842,
+    "period": 0.0,
+    "gain": 0.87722110748291016
+   },
+   {
+    "id": "Core-13",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": 0.31150799989700317,
+    "bodyPartId": "Core",
+    "ioId": 13,
+    "gain": 1.0
+   },
+   {
+    "id": "Hip1-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "Hip1",
+    "ioId": 0,
+    "phaseOffset": 0.56852680444717407,
+    "period": 1.3316318988800049,
+    "gain": 0.98771780729293823
+   },
+   {
+    "id": "Knee1-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "Knee1",
+    "ioId": 0,
+    "phaseOffset": 1.0,
+    "period": 1.2980664968490601,
+    "gain": 0.96629101037979126
+   },
+   {
+    "id": "myid1006-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1006",
+    "ioId": 0,
+    "phaseOffset": 0.55046474933624268,
+    "period": 0.8289446234703064,
+    "gain": 0.44071987271308899
+   },
+   {
+    "id": "myid1046-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": 1.7544693946838379,
+    "bodyPartId": "myid1046",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "myid1049-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1049",
+    "ioId": 0,
+    "phaseOffset": 0.31502833962440491,
+    "period": 0.20839878916740417,
+    "gain": 0.29044830799102783
+   },
+   {
+    "id": "myid1055-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -3.0,
+    "bodyPartId": "myid1055",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "myid1056-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1056",
+    "ioId": 0,
+    "phaseOffset": -0.86025309562683105,
+    "period": 0.0,
+    "gain": 0.12902733683586121
+   }
+  ],
+  "connection": [
+   {
+    "src": "Core-0",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "Core-8",
+    "weight": -1.1022535562515259
+   },
+   {
+    "src": "Core-0",
+    "dest": "myid1046-0",
+    "weight": 0.29429346323013306
+   },
+   {
+    "src": "Core-0",
+    "dest": "myid1055-0",
+    "weight": 1.3403042554855347
+   },
+   {
+    "src": "Core-1",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "Core-8",
+    "weight": -3.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "myid1046-0",
+    "weight": 2.8901968002319336
+   },
+   {
+    "src": "Core-1",
+    "dest": "myid1055-0",
+    "weight": 0.33553573489189148
+   },
+   {
+    "src": "Core-10",
+    "dest": "Core-13",
+    "weight": 1.6400494575500488
+   },
+   {
+    "src": "Core-10",
+    "dest": "Core-8",
+    "weight": 0.65007221698760986
+   },
+   {
+    "src": "Core-10",
+    "dest": "myid1046-0",
+    "weight": 1.9338690042495728
+   },
+   {
+    "src": "Core-10",
+    "dest": "myid1055-0",
+    "weight": 0.71236592531204224
+   },
+   {
+    "src": "Core-11",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-11",
+    "dest": "Core-8",
+    "weight": -1.085567831993103
+   },
+   {
+    "src": "Core-11",
+    "dest": "myid1046-0",
+    "weight": 0.081395827233791351
+   },
+   {
+    "src": "Core-11",
+    "dest": "myid1055-0",
+    "weight": 2.4517989158630371
+   },
+   {
+    "src": "Core-12",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-12",
+    "dest": "Core-8",
+    "weight": 0.78761130571365356
+   },
+   {
+    "src": "Core-12",
+    "dest": "myid1046-0",
+    "weight": 0.67729389667510986
+   },
+   {
+    "src": "Core-12",
+    "dest": "myid1055-0",
+    "weight": 0.93819314241409302
+   },
+   {
+    "src": "Core-13",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-13",
+    "dest": "Core-8",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-13",
+    "dest": "myid1046-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-13",
+    "dest": "myid1055-0",
+    "weight": -0.55469554662704468
+   },
+   {
+    "src": "Core-2",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "Core-8",
+    "weight": 2.6562705039978027
+   },
+   {
+    "src": "Core-2",
+    "dest": "myid1046-0",
+    "weight": 0.97869640588760376
+   },
+   {
+    "src": "Core-2",
+    "dest": "myid1055-0",
+    "weight": -0.89092570543289185
+   },
+   {
+    "src": "Core-3",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "Core-8",
+    "weight": -3.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "myid1046-0",
+    "weight": -0.48257648944854736
+   },
+   {
+    "src": "Core-3",
+    "dest": "myid1055-0",
+    "weight": -1.5612168312072754
+   },
+   {
+    "src": "Core-4",
+    "dest": "Core-13",
+    "weight": -1.9912984371185303
+   },
+   {
+    "src": "Core-4",
+    "dest": "Core-8",
+    "weight": -2.5011475086212158
+   },
+   {
+    "src": "Core-4",
+    "dest": "myid1046-0",
+    "weight": -2.7378172874450684
+   },
+   {
+    "src": "Core-4",
+    "dest": "myid1055-0",
+    "weight": 3.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "Core-13",
+    "weight": -0.42044591903686523
+   },
+   {
+    "src": "Core-5",
+    "dest": "Core-8",
+    "weight": 2.3502256870269775
+   },
+   {
+    "src": "Core-5",
+    "dest": "myid1046-0",
+    "weight": -0.040067296475172043
+   },
+   {
+    "src": "Core-5",
+    "dest": "myid1055-0",
+    "weight": 1.5603145360946655
+   },
+   {
+    "src": "Core-6",
+    "dest": "Core-13",
+    "weight": -0.52944660186767578
+   },
+   {
+    "src": "Core-6",
+    "dest": "Core-8",
+    "weight": 1.9714834690093994
+   },
+   {
+    "src": "Core-6",
+    "dest": "myid1046-0",
+    "weight": -0.98219746351242065
+   },
+   {
+    "src": "Core-6",
+    "dest": "myid1055-0",
+    "weight": 2.3566799163818359
+   },
+   {
+    "src": "Core-7",
+    "dest": "Core-13",
+    "weight": 1.0771229267120361
+   },
+   {
+    "src": "Core-7",
+    "dest": "Core-8",
+    "weight": -1.1518040895462036
+   },
+   {
+    "src": "Core-7",
+    "dest": "myid1046-0",
+    "weight": -3.0
+   },
+   {
+    "src": "Core-7",
+    "dest": "myid1055-0",
+    "weight": -3.0
+   },
+   {
+    "src": "Core-8",
+    "dest": "Core-13",
+    "weight": 0.73683738708496094
+   },
+   {
+    "src": "Core-8",
+    "dest": "Core-8",
+    "weight": 0.013913682661950588
+   },
+   {
+    "src": "Core-8",
+    "dest": "myid1046-0",
+    "weight": 3.0
+   },
+   {
+    "src": "Core-8",
+    "dest": "myid1055-0",
+    "weight": -2.4372878074645996
+   },
+   {
+    "src": "Core-9",
+    "dest": "Core-13",
+    "weight": 0.47034949064254761
+   },
+   {
+    "src": "Core-9",
+    "dest": "Core-8",
+    "weight": -2.2308769226074219
+   },
+   {
+    "src": "Core-9",
+    "dest": "myid1046-0",
+    "weight": -0.94925838708877563
+   },
+   {
+    "src": "Core-9",
+    "dest": "myid1055-0",
+    "weight": -1.7504090070724487
+   },
+   {
+    "src": "Hip1-0",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip1-0",
+    "dest": "Core-8",
+    "weight": -1.7665443420410156
+   },
+   {
+    "src": "Hip1-0",
+    "dest": "myid1046-0",
+    "weight": 0.72042155265808105
+   },
+   {
+    "src": "Hip1-0",
+    "dest": "myid1055-0",
+    "weight": -2.6384086608886719
+   },
+   {
+    "src": "Knee1-0",
+    "dest": "Core-13",
+    "weight": -0.0082307625561952591
+   },
+   {
+    "src": "Knee1-0",
+    "dest": "Core-8",
+    "weight": 3.0
+   },
+   {
+    "src": "Knee1-0",
+    "dest": "myid1046-0",
+    "weight": 3.0
+   },
+   {
+    "src": "Knee1-0",
+    "dest": "myid1055-0",
+    "weight": -3.0
+   },
+   {
+    "src": "myid1006-0",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "myid1006-0",
+    "dest": "Core-8",
+    "weight": -3.0
+   },
+   {
+    "src": "myid1006-0",
+    "dest": "myid1046-0",
+    "weight": 0.6826208233833313
+   },
+   {
+    "src": "myid1006-0",
+    "dest": "myid1055-0",
+    "weight": -0.85814672708511353
+   },
+   {
+    "src": "myid1046-0",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "myid1046-0",
+    "dest": "Core-8",
+    "weight": 2.5630245208740234
+   },
+   {
+    "src": "myid1046-0",
+    "dest": "myid1046-0",
+    "weight": 2.6949868202209473
+   },
+   {
+    "src": "myid1046-0",
+    "dest": "myid1055-0",
+    "weight": 1.9352301359176636
+   },
+   {
+    "src": "myid1049-0",
+    "dest": "Core-13",
+    "weight": -1.1093525886535645
+   },
+   {
+    "src": "myid1049-0",
+    "dest": "Core-8",
+    "weight": 1.8805059194564819
+   },
+   {
+    "src": "myid1049-0",
+    "dest": "myid1046-0",
+    "weight": -3.0
+   },
+   {
+    "src": "myid1049-0",
+    "dest": "myid1055-0",
+    "weight": 0.33500492572784424
+   },
+   {
+    "src": "myid1055-0",
+    "dest": "Core-13",
+    "weight": -0.89381641149520874
+   },
+   {
+    "src": "myid1055-0",
+    "dest": "Core-8",
+    "weight": -1.2776546478271484
+   },
+   {
+    "src": "myid1055-0",
+    "dest": "myid1046-0",
+    "weight": -0.46284076571464539
+   },
+   {
+    "src": "myid1055-0",
+    "dest": "myid1055-0",
+    "weight": -0.80731284618377686
+   },
+   {
+    "src": "myid1056-0",
+    "dest": "Core-13",
+    "weight": 0.0
+   },
+   {
+    "src": "myid1056-0",
+    "dest": "Core-8",
+    "weight": 0.13043543696403503
+   },
+   {
+    "src": "myid1056-0",
+    "dest": "myid1046-0",
+    "weight": 1.2354521751403809
+   },
+   {
+    "src": "myid1056-0",
+    "dest": "myid1055-0",
+    "weight": 2.0561223030090332
+   }
+  ]
+ }
+}

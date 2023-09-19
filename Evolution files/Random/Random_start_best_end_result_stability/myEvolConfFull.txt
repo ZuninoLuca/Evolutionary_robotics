@@ -1,0 +1,37 @@
+#referenceRobotFile=starfish_evolved_brain.txt
+referenceRobotFile=Locomotion_bis_repetition_3_seed_1.txt
+useBrainSeed=True
+simulatorConfFile=myConf.txt
+
+evolutionMode=full
+numGenerations=250
+mu=25
+lambda=100
+selection=deterministic-tournament
+replacement=plus
+tournamentSize=3
+
+#Commonly used brain parameters
+pBrainMutate=.5
+brainSigma=.9
+brainBounds=-3:3
+
+#Commonly used body variation parameters
+numInitialParts=8:15
+
+addBodyPart=FixedBrick
+addBodyPart=ActiveHinge
+addBodyPart=PassiveHinge
+addBodyPart= ParametricJoint
+maxBodyParts = 18
+
+#Other parameters
+pNodeInsert=0.4
+pSubtreeRemove=0.2
+pSubtreeDuplicate=0.2
+pSubtreeSwap=0.4
+pNodeRemove=0.2
+pParameterModify=0.4
+socket=127.0.0.1:8001
+#socket=127.0.0.1:8002
+#socket=127.0.0.1:8003

@@ -1,0 +1,17 @@
+# confBasic.txt -- basic configuration file
+scenario = Locomotion_bis.js
+obstaclesConfigFile = arena.txt
+timeStep=0.005
+actuationFrequency=25
+simulationTime=12
+terrainType=flat
+terrainLength=5
+terrainWidth=5
+terrainFriction=1.0
+sensorNoiseLevel=0.03
+motorNoiseLevel=0.03
+gravity=0,0,-9.8
+capAcceleration=false
+startPositionConfigFile = startPos.txt
+# uncomment the following to prevent 'jittery behaviors'
+maxDirectionShiftsPerSecond=16
